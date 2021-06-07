@@ -1,0 +1,33 @@
+.main-newsletter {
+    margin:0 auto;
+    width: 100%;
+    background-color: #f2f4f5;
+    text-align: center;
+    padding-top: 1.875rem;
+    padding-bottom: 1.875rem;
+
+
+    &__title {
+        font-size: 1.5rem;
+    }
+
+    &__paragraph {
+        font-size:0.75rem;
+        margin-top:0.3125rem;
+        margin-bottom:0.3125rem;
+    }
+
+    &__button input, button{
+        display: inline-block;
+        border-width: 0;
+        font-size: 0.8125rem;
+        padding: 0.3125rem 0.625rem;
+        margin-top:0.625rem;
+        }
+
+    &__button button{
+        background-color: coral;
+        color: white;
+        }
+
+}

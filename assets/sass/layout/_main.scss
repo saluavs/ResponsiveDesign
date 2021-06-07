@@ -1,0 +1,30 @@
+
+.menu {
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.menu__title {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: inline;
+}
+
+.menu__links {
+    float: right;
+    list-style: none;
+
+    li {
+        display: inline;
+
+        a {
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+    }
+}
+    
+.menu__input {
+    border-radius: 1.875rem;
+}
